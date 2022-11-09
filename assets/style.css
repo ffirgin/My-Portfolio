@@ -6,16 +6,26 @@
   --ashgray: #acbdba;
 }
 
+
+/* UNIVERSAL */
+
 * {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   box-sizing: border-box;
   cursor: crosshair;
 }
 
+
+/* BODY */
+
 body {
   display: flex;
   flex-direction: column;
   background-color: var(--grape);
+}
+
+main {
+  background-color: #A599B5;
 }
 
 header {
@@ -51,16 +61,12 @@ nav a {
   margin-right: 10px;
 }
 
-main {
-  background-color: #A599B5;
-}
-
 .star-itsMe {
   max-width: 25vw;
   display: flex;
   flex-shrink: inherit;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto; 
 }
 
 section h2 {
@@ -77,6 +83,9 @@ section p {
   margin: 10px;
 }
 
+
+/* ABOUT ME SECTION */
+
 .star-section {
   display: flex;
   flex-direction: column;
@@ -89,6 +98,9 @@ section p {
   margin-bottom: 5px;
   border-bottom: var(--jet) 1px solid;
 }
+
+
+/* PROJECTS SECTION */
 
 .star-container {
   display: flex;
@@ -121,6 +133,8 @@ section p {
 }
 
 
+/* CONTACT SECTION */
+
 .star-contact {
   font-size: 1.3rem;
   display: flex;
@@ -135,11 +149,13 @@ section p {
 }
 
 
+/* FOOTER STYLES */
 
 footer {
   text-align: center;
 }
 
+/* HOVER STYLES */
 
 .contact-hover:hover {
   color: var(--gainsboro);
@@ -168,6 +184,7 @@ nav > a:hover {
   cursor:zoom-in
 }
 
+/* MEDIA QUERIES */
 
 @media  screen and (min-width: 980px) {
   .star-container{

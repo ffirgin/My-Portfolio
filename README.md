@@ -1,6 +1,6 @@
 # Portfolio:
 
-## GitHub pages link: https://ffirgin.github.io/My-Portfolio/#contact
+## GitHub pages link: https://ffirgin.github.io/My-Portfolio/
 
 ## Description
 

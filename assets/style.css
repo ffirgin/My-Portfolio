@@ -1,0 +1,196 @@
+:root {
+  --jet: #2e2f2f;
+  --indigo: #360568;
+  --grape: #A599B5;
+  --gainsboro: #CDDDDD;
+  --ashgray: #acbdba;
+}
+
+* {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+  cursor: crosshair;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--grape);
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0;
+  padding: 10;
+  background-color: var(--jet);
+  color: var(--grape);
+}
+
+header h1 {
+  margin: 5;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  line-height: 1;
+  background-color: var(--);
+  padding: 5;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  
+}
+
+nav a {
+  color: var(--gainsboro);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+main {
+  background-color: #A599B5;
+}
+
+.star-itsMe {
+  max-width: 25vw;
+  display: flex;
+  flex-shrink: inherit;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section h2 {
+  flex-direction: column;
+}
+
+section p {
+  text-align: center;
+  max-width: 500px;
+  font-size: 1.2rem;
+  padding: 10px;
+  line-height: 1.1;
+  border: #2e2f2f 3px dashed;
+  margin: 10px;
+}
+
+.star-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.star-section h2 {
+  font-size: 2rem;
+  margin-top: 7px;
+  margin-bottom: 5px;
+  border-bottom: var(--jet) 1px solid;
+}
+
+.star-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.doggo-1 {
+  background-image: url(./images/momo1.jpg);
+  min-height: 300px;
+}
+
+.doggo-2 {
+  background-image: url(./images/momo2.jpg);
+}
+
+.doggo-3 {
+  background-image: url(./images/momo3.jpg);
+  
+}
+
+.star-item {
+  min-width: 250px;
+  background-size: 100%;
+  padding: 100px;
+  margin: .5rem;
+  flex-basis: calc(50% - 1em);
+  border: #2e2f2f 5px solid;
+  max-height: 250px;
+}
+
+
+.star-contact {
+  font-size: 1.3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.star-contact a {
+  display: flex;
+  margin: 5px;
+  padding: 10px;
+  color: #2e2f2f;
+}
+
+
+
+footer {
+  text-align: center;
+}
+
+
+.contact-hover:hover {
+  color: var(--gainsboro);
+  text-shadow: 0px 0px 5px var(--gainsboro);
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s eas-in;
+  transition: all 0.2s ease-in;
+}
+
+nav > a:hover {
+  color: var(--grape);
+  text-shadow: 0px 0px 5px var(--grape);
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s eas-in;
+  transition: all 0.2s ease-in;
+}
+
+.star-item:hover {
+  box-shadow: 0px 5px 5px var(--jet);
+}
+
+.star-section >p:hover {
+  box-shadow: 0px 5px 5px var(--jet);
+  cursor:zoom-in
+}
+
+
+@media  screen and (min-width: 980px) {
+  .star-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  .star-contact,
+  .star-contact div > address {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 980px){
+  .star-contact h2 {
+    border-right: #360568 2px solid;
+    padding: 20px;
+  }
+}

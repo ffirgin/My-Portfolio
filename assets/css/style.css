@@ -109,16 +109,16 @@ section p {
 }
 
 .doggo-1 {
-  background-image: url(./images/momo1.jpg);
+  background-image: url(../images/momo1.jpg);
   min-height: 300px;
 }
 
 .doggo-2 {
-  background-image: url(./images/momo2.jpg);
+  background-image: url(../images/momo2.jpg);
 }
 
 .doggo-3 {
-  background-image: url(./images/momo3.jpg);
+  background-image: url(../images/momo3.jpg);
   
 }
 
